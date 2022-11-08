@@ -1,0 +1,20 @@
+{
+  "name": "newmoralisdefifolder",
+  "version": "1.0.0",
+  "description": "A moralis defi project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test"
+  },
+  "author": "josidbobo@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.12.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts-upgradeable": "^4.7.3",
+    "@openzeppelin/hardhat-upgrades": "^1.21.0",
+    "dotenv": "^16.0.3"
+  }
+}
